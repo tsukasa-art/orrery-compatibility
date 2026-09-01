@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "datasetUpdated": "2026-08-23",
+  "sourceDigest": "sha256:cfe24783e864f520ddbab61629d643e6f690416682091c7c953596f716d0e4f9",
+  "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
+  "records": [
+    {
+      "id": "amatsutsumi-trial-v2",
+      "title": "アマツツミ体験版v2",
+      "edition": "体験版v2",
+      "distribution": "download",
+      "engine": "CMVS",
+      "protectionLayer": null,
+      "architecture": "32/64-bit",
+      "graphicsBackend": [
+        "D3D9",
+        "D3D11"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-29",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "Backend differs between cmvs32.exe and cmvs64.exe."
+      ],
+      "evidenceSummary": "Rendering, save, thumbnail, and movie were confirmed; executable imports were fingerprinted."
+    },
+    {
+      "id": "seishun-fragile-trial-v2",
+      "title": "青春フラジャイル体験版v2",
+      "edition": "体験版v2",
+      "distribution": "download",
+      "engine": "CMVS",
+      "protectionLayer": null,
+      "architecture": "32/64-bit",
+      "graphicsBackend": [
+        "D3D11"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-29",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [],
+      "evidenceSummary": "Rendering, save, thumbnail, and opening movie were confirmed; D3D11 imports were fingerprinted."
+    },
+    {
+      "id": "imouto-no-seiiki",
+      "title": "妹のセイイキ",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "KiriKiri",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-14",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Native-managed migration and launch were recorded; the current canon does not enumerate every functional axis."
+    },
+    {
+      "id": "houkago-cinderella",
+      "title": "放課後シンデレラ",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-07-01",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Title screen, settings, save/load, voice, and font rendering were confirmed; audio regression was rechecked."
+    },
+    {
+      "id": "houkago-cinderella-trial",
+      "title": "放課後シンデレラ 体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-07-01",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [],
+      "evidenceSummary": "Shared DirectSound restoration was checked for audio regression."
+    },
+    {
+      "id": "houkago-cinderella-mini-fandisc",
+      "title": "放課後シンデレラ ミニファンディスク",
+      "edition": "ミニファンディスク",
+      "distribution": "unspecified",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-14",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "The title is recorded as verified, without a current per-axis breakdown."
+    },
+    {
+      "id": "houkago-cinderella-2",
+      "title": "放課後シンデレラ2",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-14",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Launch and opening movie were confirmed."
+    },
+    {
+      "id": "natsuyume-nagisa-trial",
+      "title": "ナツユメナギサ体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "RealLive",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-07-01",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "The official entry point is Start.exe."
+      ],
+      "evidenceSummary": "The official launcher route and opening movie using the normal MCI option were confirmed."
+    },
+    {
+      "id": "homestay-a-la-mode-trial",
+      "title": "HOMESTAY a la mode 体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "Yaneurao GameSDK",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-14",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "Graphics backend is packed or dynamically selected and is not statically established."
+      ],
+      "evidenceSummary": "The title was confirmed after the font-resolution issue was corrected."
+    },
+    {
+      "id": "making-lovers",
+      "title": "Making Lovers",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-15",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "The opening movie was rechecked successfully."
+    },
+    {
+      "id": "yubisaki-connection",
+      "title": "ゆびさきコネクション",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-14",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Launch and opening movie were confirmed."
+    },
+    {
+      "id": "nukitashi-remaster-trial",
+      "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか？Remaster 体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "Artemis",
+      "protectionLayer": "iarsys",
+      "architecture": "64-bit",
+      "graphicsBackend": [
+        "D3D11"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-23",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [
+        "iarsys is a protection and license wrapper, not the rendering engine."
+      ],
+      "evidenceSummary": "Video and black-thumbnail failures were confirmed resolved on the Artemis plus iarsys route."
+    },
+    {
+      "id": "gals-fiction-trial",
+      "title": "ギャルズフィクション体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "Artemis",
+      "protectionLayer": "iarsys",
+      "architecture": "64-bit",
+      "graphicsBackend": [
+        "D3D11"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-07-02",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [
+        "iarsys is a protection and license wrapper, not the rendering engine."
+      ],
+      "evidenceSummary": "Main rendering, thumbnail readback, and the ending movie were verified through runtime trace and owner observation."
+    },
+    {
+      "id": "limelight-lemonade-jam-trial",
+      "title": "ライムライト・レモネードジャム 体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "KiriKiri2 / TVP",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9",
+        "Direct2D / D3D11"
+      ],
+      "route": "Melammu + title-local Wine 10 i386 runtime",
+      "verifiedAt": "2026-07-19",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "Numeric frame-time performance was not measured."
+      ],
+      "evidenceSummary": "Normal rendering, audio, transitions, movie playback, and first-load preparation were confirmed on the launcher route."
+    },
+    {
+      "id": "study-steady-trial",
+      "title": "スタディ§ステディ体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "marmalade / Emote",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9",
+        "OpenGL"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-29",
+      "axes": {
+        "launch": "verified",
+        "rendering": "partial",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "Live2D/Emote motion is heavy, although the promotional sequence completed."
+      ],
+      "evidenceSummary": "The promotional sequence completed; binary imports establish both D3D9 and OpenGL use."
+    },
+    {
+      "id": "furukiss-s",
+      "title": "フルキスS",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "GIGA / PAC",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + title-specific runtime overlay",
+      "verifiedAt": "2026-07-02",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [
+        "Warm movie start remains slower than the Windows comparison; no regression against the prior Mac route was found."
+      ],
+      "evidenceSummary": "DirectX-on opening movie playback was restored and compared against the former working route."
+    },
+    {
+      "id": "hamidashi-creative",
+      "title": "ハミダシクリエイティブ",
+      "edition": "製品版",
+      "distribution": "package",
+      "engine": "Artemis",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + title-local compatibility profile",
+      "verifiedAt": "2026-07-23",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Main rendering, save/load, non-black thumbnails, audio, and movie playback were confirmed in the canonical installed application."
+    },
+    {
+      "id": "aibeya-2",
+      "title": "アイベヤ2",
+      "edition": "製品版",
+      "distribution": "package",
+      "engine": "CatSystem2",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + title-specific runtime overlay",
+      "verifiedAt": "2026-08-23",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "Startup time was subjectively long and has not been measured."
+      ],
+      "evidenceSummary": "Installer flow, startup movie, start/load screen, and main text rendering were reverified in installed Release 1.0.4 (12)."
+    },
+    {
+      "id": "kateikyoushi-no-oneesan",
+      "title": "家庭教師のおねえさん",
+      "edition": "製品版",
+      "distribution": "package",
+      "engine": "Yaneurao GameSDK",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-14",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [
+        "Graphics backend is packed or dynamically selected and has not been established by runtime trace."
+      ],
+      "evidenceSummary": "The retained library entry had active saves and was recorded as verified."
+    },
+    {
+      "id": "bubble-de-house",
+      "title": "バブルdeハウスde〇〇〇",
+      "edition": "製品版",
+      "distribution": "unspecified",
+      "engine": "Yaneurao GameSDK",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-06-15",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "verified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "unverified"
+      },
+      "constraints": [
+        "Graphics backend is packed or dynamically selected and has not been established by runtime trace."
+      ],
+      "evidenceSummary": "The retained verified entry and original save data were checked during deduplication."
+    },
+    {
+      "id": "natsujiru-100",
+      "title": "夏汁100%",
+      "edition": "製品版",
+      "distribution": "DMM download",
+      "engine": "Yaneurao GameSDK",
+      "protectionLayer": "SoftDenchi",
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "Melammu shared SoftDenchi prefix",
+      "verifiedAt": "2026-07-04",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "The prior installed copy was removed and would need to be installed again for a current run.",
+        "Graphics backend is not established."
+      ],
+      "evidenceSummary": "Two full-from-scratch runs reached gameplay on 2026-07-04; cleanup did not invalidate that historical result."
+    },
+    {
+      "id": "namaiki",
+      "title": "なまイキ",
+      "edition": "製品版",
+      "distribution": "DMM download",
+      "engine": "Yaneurao GameSDK",
+      "protectionLayer": "SoftDenchi",
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu shared SoftDenchi prefix",
+      "verifiedAt": "2026-07-04",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Two full-from-scratch owner-observed runs reached gameplay."
+    },
+    {
+      "id": "sugar-style",
+      "title": "SugarStyle",
+      "edition": "製品版",
+      "distribution": "DMM download",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": "SoftDenchi",
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu shared SoftDenchi prefix",
+      "verifiedAt": "2026-07-05",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [],
+      "evidenceSummary": "DMM authentication and gameplay were confirmed through the shared SoftDenchi prefix."
+    },
+    {
+      "id": "eromanga-hd-remaster",
+      "title": "えろまんが Hもマンガもステップアップ♪ HDリマスター",
+      "edition": "HDリマスター製品版",
+      "distribution": "DMM download",
+      "engine": "YU-RIS",
+      "protectionLayer": "SoftDenchi",
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "Melammu shared SoftDenchi prefix",
+      "verifiedAt": "2026-07-17",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "The first multipart archive import required reselecting the existing folder."
+      ],
+      "evidenceSummary": "Three-volume extraction, shared-prefix placement, launch, and gameplay were confirmed."
+    },
+    {
+      "id": "oneesan-shuffle",
+      "title": "お姉さん×SHUFFLE！",
+      "edition": "製品版",
+      "distribution": "DMM download",
+      "engine": "Yaneurao GameSDK",
+      "protectionLayer": "SoftDenchi",
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu shared SoftDenchi prefix",
+      "verifiedAt": "2026-07-17",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [],
+      "evidenceSummary": "Archive extraction, shared-prefix registration, Start.exe launch, and gameplay were confirmed."
+    },
+    {
+      "id": "sugar-style-after-story",
+      "title": "SugarStyle 恋人以上夫婦未満アフターストーリー",
+      "edition": "特典アフターストーリー",
+      "distribution": "DMM download",
+      "engine": "BGI / Ethornell",
+      "protectionLayer": "SoftDenchi",
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "Melammu shared SoftDenchi prefix",
+      "verifiedAt": "2026-07-17",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "Graphics backend is dynamically selected and has not been established by runtime trace."
+      ],
+      "evidenceSummary": "Nested archive extraction, shared-prefix registration, and gameplay were confirmed."
+    },
+    {
+      "id": "amatarasu-riddle-star-trial",
+      "title": "あまたらすリドルスター体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "KiriKiri / XP3",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "DirectDraw",
+        "D3D9 (movie)"
+      ],
+      "route": "Melammu + title compatibility profile",
+      "verifiedAt": "2026-07-02",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "partial",
+        "movie": "blocked",
+        "thumbnail": "unverified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "Movie playback remains blocked by IAMStreamSelect::Enable returning E_NOTIMPL on the current route.",
+        "A historical script-patched route reached movie playback but is not the current unmodified-title route."
+      ],
+      "evidenceSummary": "A clean save reaches the title screen; the current movie path and existing save/restore remain incomplete."
+    },
+    {
+      "id": "dc3-rx-rated",
+      "title": "D.C.III R X-rated",
+      "edition": "製品版",
+      "distribution": "package",
+      "engine": "CIRCUS ADV",
+      "protectionLayer": "CIRCUS online activation",
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "DirectDraw"
+      ],
+      "route": "Melammu folder import or installer flow",
+      "verifiedAt": "2026-07-06",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "Initial discless activation requires the publisher's online authentication service and a valid serial."
+      ],
+      "evidenceSummary": "Folder import and installer routes both reached the title screen and completed legitimate online discless activation."
+    },
+    {
+      "id": "suiheisen-made-nan-mile",
+      "title": "水平線まで何マイル？",
+      "edition": "DMM版",
+      "distribution": "DMM GAME PLAYER",
+      "engine": "KiriKiri2",
+      "protectionLayer": "DMM GAME PLAYER",
+      "architecture": "32-bit game process",
+      "graphicsBackend": [],
+      "route": "DMM GAME PLAYER via Melammu",
+      "verifiedAt": "2026-07-15",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "unverified",
+        "movie": "verified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "The game is launched through DMM GAME PLAYER rather than as an independent Melammu library entry.",
+        "Graphics backend is not established by runtime trace."
+      ],
+      "evidenceSummary": "Official download/install, device registration, launcher-mediated game start, font correction, and logo movie rendering were confirmed."
+    },
+    {
+      "id": "ushinawareta-mirai",
+      "title": "失われた未来を求めて",
+      "edition": "DMM版",
+      "distribution": "DMM GAME PLAYER",
+      "engine": "KiriKiri family",
+      "protectionLayer": "DMM GAME PLAYER",
+      "architecture": "32-bit",
+      "graphicsBackend": [],
+      "route": "DMM GAME PLAYER via Melammu",
+      "verifiedAt": "2026-07-15",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "unverified",
+        "saveLoad": "unverified",
+        "movie": "unverified",
+        "thumbnail": "unverified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "The game is launched through DMM GAME PLAYER rather than as an independent Melammu library entry.",
+        "Renderer/backend is not established by runtime trace."
+      ],
+      "evidenceSummary": "Official launcher-mediated startup and gameplay were confirmed; executable and KAG/TJS/plugin structure were inspected."
+    }
+  ]
+}
