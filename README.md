@@ -2,7 +2,7 @@
 
 Windows向けビジュアルノベルをMac上のWine互換環境で検証した、タイトル別の動作状況です。
 
-この一覧は、非公開で開発している **Melammu** と **swingby-wine**、タイトル別profile、prefix、runtime overlayを組み合わせた検証結果です。公開リポジトリ [melammu-vn](https://github.com/tsukasa-art/melammu-vn) のsource-only参照実装だけで同じ結果が得られることを意味しません。
+この一覧は、非公開で開発している **KASANE（カサネ）**（Windows向けノベルゲームをMacで遊ぶためのランチャー。[紹介ページ](https://tsukasa-art.com/projects/orrery/kasane/)。データ内の `Melammu` は開発名）と **swingby-wine**、タイトル別profile、prefix、runtime overlayを組み合わせた検証結果です。公開リポジトリ [melammu-vn](https://github.com/tsukasa-art/melammu-vn) のsource-only参照実装だけで同じ結果が得られることを意味しません。
 
 タイトル名には成人向け作品が含まれます。ゲームデータ、画像、認証情報、DRM回避手段は掲載しません。正規に入手したソフトウェアの互換性調査記録です。
 
