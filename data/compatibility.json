@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-13",
-  "sourceDigest": "sha256:4d7f55c150473472cff54ec00dddb5e5a6aadfe49ba2cc3bb702f04eb182ab66",
+  "sourceDigest": "sha256:4e2364cce295713d5db9bc97a1f5e8467c93bea098aaa59aae4c3c4606acf3f6",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -799,16 +799,16 @@
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
         "Sprite rendering depends on a title profile that reports four processors to the game; with the host's full core count, sprite pixels were intermittently left unwritten and the background showed through.",
         "Whether the same behavior occurs on many-core Windows PCs has not been checked."
       ],
-      "evidenceSummary": "Installer flow from the appendix DVD, title screen, prologue, opening movie, and audio were confirmed in installed Release 1.0.10 (19) with the processor-count profile applied."
+      "evidenceSummary": "Installer flow from the appendix DVD, title screen, prologue, opening movie, audio, save/load, and save thumbnails were confirmed in installed Release 1.0.10 (19) with the processor-count profile applied."
     }
   ]
 }
