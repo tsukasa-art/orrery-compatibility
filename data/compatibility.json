@@ -1,12 +1,15 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-13",
-  "sourceDigest": "sha256:69a5984ce8548a6b290bcd445b8e700552498c0468c8d3f4b32ce502ff8f1a3e",
+  "sourceDigest": "sha256:5ec7b28d8ae1fdec658217a27e4c958e14f7397ed0e6090f5eba25dbe50c0628",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
       "id": "amatsutsumi-trial-v2",
       "title": "アマツツミ体験版v2",
+      "titleKana": "あまつつみ",
+      "brand": "Purple software",
+      "brandKana": "ぱーぷるそふとうぇあ",
       "edition": "体験版v2",
       "distribution": "download",
       "engine": "CMVS",
@@ -35,6 +38,9 @@
     {
       "id": "seishun-fragile-trial-v2",
       "title": "青春フラジャイル体験版v2",
+      "titleKana": "せいしゅんふらじゃいる",
+      "brand": "Purple software",
+      "brandKana": "ぱーぷるそふとうぇあ",
       "edition": "体験版v2",
       "distribution": "download",
       "engine": "CMVS",
@@ -60,6 +66,9 @@
     {
       "id": "imouto-no-seiiki",
       "title": "妹のセイイキ",
+      "titleKana": "いもうとのせいいき",
+      "brand": "feng",
+      "brandKana": "ふぉん",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "KiriKiri",
@@ -85,6 +94,9 @@
     {
       "id": "houkago-cinderella",
       "title": "放課後シンデレラ",
+      "titleKana": "ほうかごしんでれら",
+      "brand": "HOOKSOFT",
+      "brandKana": "ふっくそふと",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "BGI / Ethornell",
@@ -110,6 +122,9 @@
     {
       "id": "houkago-cinderella-trial",
       "title": "放課後シンデレラ 体験版",
+      "titleKana": "ほうかごしんでれら",
+      "brand": "HOOKSOFT",
+      "brandKana": "ふっくそふと",
       "edition": "体験版",
       "distribution": "download",
       "engine": "BGI / Ethornell",
@@ -135,6 +150,9 @@
     {
       "id": "houkago-cinderella-mini-fandisc",
       "title": "放課後シンデレラ ミニファンディスク",
+      "titleKana": "ほうかごしんでれらみにふぁんでぃすく",
+      "brand": "HOOKSOFT",
+      "brandKana": "ふっくそふと",
       "edition": "ミニファンディスク",
       "distribution": "unspecified",
       "engine": "BGI / Ethornell",
@@ -160,6 +178,9 @@
     {
       "id": "houkago-cinderella-2",
       "title": "放課後シンデレラ2",
+      "titleKana": "ほうかごしんでれらつー",
+      "brand": "HOOKSOFT",
+      "brandKana": "ふっくそふと",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "BGI / Ethornell",
@@ -185,6 +206,9 @@
     {
       "id": "natsuyume-nagisa-trial",
       "title": "ナツユメナギサ体験版",
+      "titleKana": "なつゆめなぎさ",
+      "brand": "SAGA PLANETS",
+      "brandKana": "さがぷらねっつ",
       "edition": "体験版",
       "distribution": "download",
       "engine": "RealLive",
@@ -212,6 +236,9 @@
     {
       "id": "homestay-a-la-mode-trial",
       "title": "HOMESTAY a la mode 体験版",
+      "titleKana": "ほーむすていあらもーど",
+      "brand": "アトリエかぐや",
+      "brandKana": "あとりえかぐや",
       "edition": "体験版",
       "distribution": "download",
       "engine": "Yaneurao GameSDK",
@@ -237,6 +264,9 @@
     {
       "id": "making-lovers",
       "title": "Making Lovers",
+      "titleKana": "めいきんぐらばーず",
+      "brand": "SMEE",
+      "brandKana": "すみー",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "BGI / Ethornell",
@@ -262,6 +292,9 @@
     {
       "id": "yubisaki-connection",
       "title": "ゆびさきコネクション",
+      "titleKana": "ゆびさきこねくしょん",
+      "brand": "HOOKSOFT",
+      "brandKana": "ふっくそふと",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "BGI / Ethornell",
@@ -287,6 +320,9 @@
     {
       "id": "nukitashi-remaster-trial",
       "title": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか？Remaster 体験版",
+      "titleKana": "ぬきげーみたいなしまにすんでるわたしはどうすりゃいいですかりますたー",
+      "brand": "Qruppo",
+      "brandKana": "くるっぽ",
       "edition": "体験版",
       "distribution": "download",
       "engine": "Artemis",
@@ -314,6 +350,9 @@
     {
       "id": "gals-fiction-trial",
       "title": "ギャルズフィクション体験版",
+      "titleKana": "ぎゃるずふぃくしょん",
+      "brand": "自宅すたじお",
+      "brandKana": "じたくすたじお",
       "edition": "体験版",
       "distribution": "download",
       "engine": "Artemis",
@@ -341,6 +380,9 @@
     {
       "id": "limelight-lemonade-jam-trial",
       "title": "ライムライト・レモネードジャム 体験版",
+      "titleKana": "らいむらいとれもねーどじゃむ",
+      "brand": "ゆずソフト",
+      "brandKana": "ゆずそふと",
       "edition": "体験版",
       "distribution": "download",
       "engine": "KiriKiri2 / TVP",
@@ -369,6 +411,9 @@
     {
       "id": "study-steady-trial",
       "title": "スタディ§ステディ体験版",
+      "titleKana": "すたでぃすてでぃ",
+      "brand": "ま～まれぇど",
+      "brandKana": "まーまれぇど",
       "edition": "体験版",
       "distribution": "download",
       "engine": "marmalade / Emote",
@@ -397,6 +442,9 @@
     {
       "id": "furukiss-s",
       "title": "フルキスS",
+      "titleKana": "ふるきすえす",
+      "brand": "戯画",
+      "brandKana": "ぎが",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "GIGA / PAC",
@@ -424,6 +472,9 @@
     {
       "id": "hamidashi-creative",
       "title": "ハミダシクリエイティブ",
+      "titleKana": "はみだしくりえいてぃぶ",
+      "brand": "まどそふと",
+      "brandKana": "まどそふと",
       "edition": "製品版",
       "distribution": "package",
       "engine": "Artemis",
@@ -449,6 +500,9 @@
     {
       "id": "aibeya-2",
       "title": "アイベヤ2",
+      "titleKana": "あいべやに",
+      "brand": "あざらしそふと",
+      "brandKana": "あざらしそふと",
       "edition": "製品版",
       "distribution": "package",
       "engine": "CatSystem2",
@@ -476,6 +530,9 @@
     {
       "id": "kateikyoushi-no-oneesan",
       "title": "家庭教師のおねえさん",
+      "titleKana": "かていきょうしのおねえさん",
+      "brand": "アトリエかぐや",
+      "brandKana": "あとりえかぐや",
       "edition": "製品版",
       "distribution": "package",
       "engine": "Yaneurao GameSDK",
@@ -501,6 +558,9 @@
     {
       "id": "bubble-de-house",
       "title": "バブルdeハウスde〇〇〇",
+      "titleKana": "ばぶるではうすでまるまるまる",
+      "brand": "アトリエかぐや",
+      "brandKana": "あとりえかぐや",
       "edition": "製品版",
       "distribution": "unspecified",
       "engine": "Yaneurao GameSDK",
@@ -526,6 +586,9 @@
     {
       "id": "natsujiru-100",
       "title": "夏汁100%",
+      "titleKana": "かじゅうひゃくぱーせんと",
+      "brand": "アトリエかぐや",
+      "brandKana": "あとりえかぐや",
       "edition": "製品版",
       "distribution": "DMM download",
       "engine": "Yaneurao GameSDK",
@@ -552,6 +615,9 @@
     {
       "id": "namaiki",
       "title": "なまイキ",
+      "titleKana": "なまいき",
+      "brand": "アトリエかぐや",
+      "brandKana": "あとりえかぐや",
       "edition": "製品版",
       "distribution": "DMM download",
       "engine": "Yaneurao GameSDK",
@@ -577,6 +643,9 @@
     {
       "id": "sugar-style",
       "title": "SugarStyle",
+      "titleKana": "しゅがーすたいる",
+      "brand": "SMEE",
+      "brandKana": "すみー",
       "edition": "製品版",
       "distribution": "DMM download",
       "engine": "BGI / Ethornell",
@@ -602,6 +671,9 @@
     {
       "id": "eromanga-hd-remaster",
       "title": "えろまんが Hもマンガもステップアップ♪ HDリマスター",
+      "titleKana": "えろまんがえっちもまんがもすてっぷあっぷえいちでぃーりますたー",
+      "brand": "CLOCKUP",
+      "brandKana": "くろっくあっぷ",
       "edition": "HDリマスター製品版",
       "distribution": "DMM download",
       "engine": "YU-RIS",
@@ -627,6 +699,9 @@
     {
       "id": "oneesan-shuffle",
       "title": "お姉さん×SHUFFLE！",
+      "titleKana": "おねえさんしゃっふる",
+      "brand": "アトリエかぐや",
+      "brandKana": "あとりえかぐや",
       "edition": "製品版",
       "distribution": "DMM download",
       "engine": "Yaneurao GameSDK",
@@ -652,6 +727,9 @@
     {
       "id": "sugar-style-after-story",
       "title": "SugarStyle 恋人以上夫婦未満アフターストーリー",
+      "titleKana": "しゅがーすたいるこいびといじょうふうふみまんあふたーすとーりー",
+      "brand": "SMEE",
+      "brandKana": "すみー",
       "edition": "特典アフターストーリー",
       "distribution": "DMM download",
       "engine": "BGI / Ethornell",
@@ -677,6 +755,9 @@
     {
       "id": "amatarasu-riddle-star-trial",
       "title": "あまたらすリドルスター体験版",
+      "titleKana": "あまたらすりどるすたー",
+      "brand": "seal-QUALIA",
+      "brandKana": "しーるくおりあ",
       "edition": "体験版",
       "distribution": "download",
       "engine": "KiriKiri / XP3",
@@ -706,6 +787,9 @@
     {
       "id": "dc3-rx-rated",
       "title": "D.C.III R X-rated",
+      "titleKana": "だかーぽすりーあーるえっくすれいてぃっど",
+      "brand": "CIRCUS",
+      "brandKana": "さーかす",
       "edition": "製品版",
       "distribution": "package",
       "engine": "CIRCUS ADV",
@@ -733,6 +817,9 @@
     {
       "id": "suiheisen-made-nan-mile",
       "title": "水平線まで何マイル？",
+      "titleKana": "すいへいせんまでなんまいる",
+      "brand": "ABHAR",
+      "brandKana": "あーゔぁる",
       "edition": "DMM版",
       "distribution": "DMM GAME PLAYER",
       "engine": "KiriKiri2",
@@ -759,6 +846,9 @@
     {
       "id": "ushinawareta-mirai",
       "title": "失われた未来を求めて",
+      "titleKana": "うしなわれたみらいをもとめて",
+      "brand": "TRUMPLE",
+      "brandKana": "とらんぷる",
       "edition": "DMM版",
       "distribution": "DMM GAME PLAYER",
       "engine": "KiriKiri family",
@@ -785,6 +875,9 @@
     {
       "id": "kanojo-step",
       "title": "カノジョ＊ステップ",
+      "titleKana": "かのじょすてっぷ",
+      "brand": "SMEE",
+      "brandKana": "すみー",
       "edition": "メガストア2026年12月号付録（完全収録）",
       "distribution": "magazine appendix DVD",
       "engine": "BGI / Ethornell",
@@ -813,6 +906,9 @@
     {
       "id": "katanegai-trial",
       "title": "カタネガイ体験版",
+      "titleKana": "かたねがい",
+      "brand": "インテグラル",
+      "brandKana": "いんてぐらる",
       "edition": "体験版",
       "distribution": "download",
       "engine": "Light.vn",
@@ -841,6 +937,9 @@
     {
       "id": "maitetsu-last-run-trial",
       "title": "まいてつ Last Run!! 体験版",
+      "titleKana": "まいてつらすとらん",
+      "brand": "Lose",
+      "brandKana": "るーず",
       "edition": "体験版",
       "distribution": "download",
       "engine": "KiriKiri Z",

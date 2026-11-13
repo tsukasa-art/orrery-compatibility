@@ -4,6 +4,14 @@
 
 Each record represents one tested combination of title, edition/distribution, and execution route. `engine` and `protectionLayer` are separate because a protection wrapper such as iarsys is not the rendering engine.
 
+## Title metadata
+
+- `brand`: the brand name printed on the package or the brand's site (not the company name).
+- `titleKana`: reading of the title in hiragana, without edition words such as 体験版 or 製品版. Symbols are omitted.
+- `brandKana`: reading of the brand in hiragana.
+
+These are for search and kana ordering (e.g. kasane.tsukasa-art.com). They are optional, but a record that has one has all three. Readings were checked against the publisher, sales pages, ErogameScape, and VNDB (2026-11-13).
+
 ## Axes
 
 - `launch`: process reaches the expected game entry point
