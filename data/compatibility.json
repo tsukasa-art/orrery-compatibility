@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-13",
-  "sourceDigest": "sha256:5ec7b28d8ae1fdec658217a27e4c958e14f7397ed0e6090f5eba25dbe50c0628",
+  "sourceDigest": "sha256:69a028cbaad2a6c35eb3044f9f41320447a439cf3966efaca7f7e882f0457b41",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -500,7 +500,7 @@
     {
       "id": "aibeya-2",
       "title": "アイベヤ2",
-      "titleKana": "あいべやに",
+      "titleKana": "あいべやつー",
       "brand": "あざらしそふと",
       "brandKana": "あざらしそふと",
       "edition": "製品版",
