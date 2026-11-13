@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:4a4d831685852a7e8a8885fe91fb5d30da147c4dabae88de3d9fe794d127f251",
+  "sourceDigest": "sha256:9defd0961fbc322a8f72a04d6f9c60e2554ae2887c3bd5f92eb53e0b6a135e4d",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -776,14 +776,14 @@
         "audio": "verified",
         "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "not-applicable"
       },
       "constraints": [
         "The game relaunches itself right after start. The launcher fix that keeps following the relaunched process is not in KASANE 1.0.12 (21) or earlier; those builds close the game a few seconds after launch.",
         "Returning from the load or options screen during a movie scene can leave the story screen frozen. The same happens on Windows, so it is treated as game behavior."
       ],
-      "evidenceSummary": "On the unmodified game, the opening movie plays with audio through to the title screen, and an existing save loads, including restoring a movie that was playing. Confirmed on a development build of the launcher."
+      "evidenceSummary": "On the unmodified game, the opening movie plays with audio through to the title screen, an existing save loads, including restoring a movie that was playing, and new saves are written with their thumbnails shown on the save screen. Confirmed on a development build of the launcher."
     },
     {
       "id": "dc3-rx-rated",
