@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-13",
-  "sourceDigest": "sha256:4e2364cce295713d5db9bc97a1f5e8467c93bea098aaa59aae4c3c4606acf3f6",
+  "sourceDigest": "sha256:69a5984ce8548a6b290bcd445b8e700552498c0468c8d3f4b32ce502ff8f1a3e",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -809,6 +809,61 @@
         "Whether the same behavior occurs on many-core Windows PCs has not been checked."
       ],
       "evidenceSummary": "Installer flow from the appendix DVD, title screen, prologue, opening movie, audio, save/load, and save thumbnails were confirmed in installed Release 1.0.10 (19) with the processor-count profile applied."
+    },
+    {
+      "id": "katanegai-trial",
+      "title": "カタネガイ体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "Light.vn",
+      "protectionLayer": null,
+      "architecture": "64-bit",
+      "graphicsBackend": [
+        "D3D11"
+      ],
+      "route": "Melammu + title compatibility profile",
+      "verifiedAt": "2026-11-13",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
+        "installerAuth": "verified"
+      },
+      "constraints": [
+        "The engine renders through bundled ANGLE, which only tries Direct3D 11; Wine's default Direct3D 11 on macOS OpenGL offers no usable feature level, so the title profile routes Direct3D 11 to DXVK.",
+        "Movies are WebM files played by the game's own FFmpeg, not by Wine's media stack."
+      ],
+      "evidenceSummary": "Installer flow, title, main story, save/load, thumbnails, audio, opening movies, completion of the trial, and exit were confirmed with Direct3D 11 on DXVK; installed Release 1.0.11 (20) was then confirmed to apply the title profile on a reset prefix and reach the title screen."
+    },
+    {
+      "id": "maitetsu-last-run-trial",
+      "title": "まいてつ Last Run!! 体験版",
+      "edition": "体験版",
+      "distribution": "download",
+      "engine": "KiriKiri Z",
+      "protectionLayer": null,
+      "architecture": "32-bit",
+      "graphicsBackend": [
+        "D3D9"
+      ],
+      "route": "Melammu + swingby-wine",
+      "verifiedAt": "2026-11-13",
+      "axes": {
+        "launch": "verified",
+        "rendering": "verified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "not-applicable",
+        "thumbnail": "verified",
+        "installerAuth": "not-applicable"
+      },
+      "constraints": [
+        "The trial archive contains no movie files, so movie playback was not exercised; the full version's movies are untested."
+      ],
+      "evidenceSummary": "Folder import, title, main story with animated sprites, save/load, thumbnails, audio, and exit were confirmed in installed Release 1.0.11 (20) without a title-specific profile."
     }
   ]
 }
