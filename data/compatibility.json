@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:ad0a42f36b1bfa54eab214cb729301322d4baef7c1a1eda67967248a4c565f3e",
+  "sourceDigest": "sha256:6d7a9769b446b81c534756bdfbae96f26949d0689d222ba7ddb424066d6162e3",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -436,9 +436,9 @@
       },
       "constraints": [
         "Smooth rendering depends on a title profile that routes Direct3D 9 to DXVK. On Wine's default Direct3D 9 (wined3d over macOS OpenGL), the 32-bit buffer mapping path slowed Live2D/Emote scenes to about 3-11 fps.",
-        "The title profile is in KASANE's source but not yet in a published release; installed Release 1.0.11 (20) does not include it."
+        "The title profile ships in KASANE 1.0.12 (21) and later."
       ],
-      "evidenceSummary": "Main story, save/load, save thumbnails, and the opening PV were confirmed with Direct3D 9 on DXVK at about 60 fps; a debug build then applied the title profile on a reset prefix and loaded DXVK. Binary imports include both D3D9 and OpenGL, but the game presents through D3D9 only."
+      "evidenceSummary": "Main story, save/load, save thumbnails, and the opening PV were confirmed with Direct3D 9 on DXVK at about 60 fps; KASANE 1.0.12 (21) then applied the title profile on a reset prefix, loaded DXVK, and ran at about 63 fps. Binary imports include both D3D9 and OpenGL, but the game presents through D3D9 only."
     },
     {
       "id": "furukiss-s",
