@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:dc4ac4af71fa46e60c6f72cec627615db5c48062d28c63735f20176bf27ea18c",
+  "sourceDigest": "sha256:4a4d831685852a7e8a8885fe91fb5d30da147c4dabae88de3d9fe794d127f251",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -769,21 +769,21 @@
         "D3D9 (movie)"
       ],
       "route": "Melammu + title compatibility profile",
-      "verifiedAt": "2026-07-02",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "partial",
-        "movie": "blocked",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
         "thumbnail": "unverified",
         "installerAuth": "not-applicable"
       },
       "constraints": [
-        "Movie playback remains blocked by IAMStreamSelect::Enable returning E_NOTIMPL on the current route.",
-        "A historical script-patched route reached movie playback but is not the current unmodified-title route."
+        "The game relaunches itself right after start. The launcher fix that keeps following the relaunched process is not in KASANE 1.0.12 (21) or earlier; those builds close the game a few seconds after launch.",
+        "Returning from the load or options screen during a movie scene can leave the story screen frozen. The same happens on Windows, so it is treated as game behavior."
       ],
-      "evidenceSummary": "A clean save reaches the title screen; the current movie path and existing save/restore remain incomplete."
+      "evidenceSummary": "On the unmodified game, the opening movie plays with audio through to the title screen, and an existing save loads, including restoring a movie that was playing. Confirmed on a development build of the launcher."
     },
     {
       "id": "dc3-rx-rated",

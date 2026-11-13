@@ -44,7 +44,7 @@ Windows向けビジュアルノベルをMac上のWine互換環境で検証した
 | えろまんが Hもマンガもステップアップ♪ HDリマスター | CLOCKUP | HDリマスター製品版 | YU-RIS / SoftDenchi | 起動・描画確認済み | 2026-07-17 |
 | お姉さん×SHUFFLE！ | アトリエかぐや | 製品版 | Yaneurao GameSDK / SoftDenchi | 起動・描画確認済み | 2026-07-17 |
 | SugarStyle 恋人以上夫婦未満アフターストーリー | SMEE | 特典アフターストーリー | BGI / Ethornell / SoftDenchi | 起動・描画確認済み | 2026-07-17 |
-| あまたらすリドルスター体験版 | seal-QUALIA | 体験版 | KiriKiri / XP3 | 未成立の軸あり | 2026-07-02 |
+| あまたらすリドルスター体験版 | seal-QUALIA | 体験版 | KiriKiri / XP3 | 起動・描画確認済み | 2026-11-14 |
 | D.C.III R X-rated | CIRCUS | 製品版 | CIRCUS ADV / CIRCUS online activation | 起動・描画確認済み | 2026-07-06 |
 | 水平線まで何マイル？ | ABHAR | DMM版 | KiriKiri2 / DMM GAME PLAYER | 起動・描画確認済み | 2026-07-15 |
 | 失われた未来を求めて | TRUMPLE | DMM版 | KiriKiri family / DMM GAME PLAYER | 起動・描画確認済み | 2026-07-15 |
