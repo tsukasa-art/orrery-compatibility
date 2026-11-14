@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:9defd0961fbc322a8f72a04d6f9c60e2554ae2887c3bd5f92eb53e0b6a135e4d",
+  "sourceDigest": "sha256:55d5c75ddacd131d007572d199987839aa71d7bcdbc9401df2ef9881a686cb0a",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -106,18 +106,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-07-01",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
         "saveLoad": "verified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Title screen, settings, save/load, voice, and font rendering were confirmed; audio regression was rechecked."
+      "evidenceSummary": "Title screen, settings, save/load, voice, and font rendering were confirmed; audio regression was rechecked. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails, the opening and ending movies, and save/load."
     },
     {
       "id": "houkago-cinderella-trial",
@@ -134,18 +134,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-07-01",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "not-applicable"
       },
       "constraints": [],
-      "evidenceSummary": "Shared DirectSound restoration was checked for audio regression."
+      "evidenceSummary": "Shared DirectSound restoration was checked for audio regression. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and the movie."
     },
     {
       "id": "houkago-cinderella-mini-fandisc",
@@ -162,18 +162,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-14",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "The title is recorded as verified, without a current per-axis breakdown."
+      "evidenceSummary": "The title is recorded as verified, without a current per-axis breakdown. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load, save thumbnails and the ending movie."
     },
     {
       "id": "houkago-cinderella-2",
@@ -190,18 +190,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-14",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Launch and opening movie were confirmed."
+      "evidenceSummary": "Launch and opening movie were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load, save thumbnails and the opening movie."
     },
     {
       "id": "natsuyume-nagisa-trial",
@@ -276,18 +276,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-15",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "The opening movie was rechecked successfully."
+      "evidenceSummary": "The opening movie was rechecked successfully. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load including overwriting a save, save thumbnails, and the opening and ending movies."
     },
     {
       "id": "yubisaki-connection",
@@ -304,18 +304,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-14",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Launch and opening movie were confirmed."
+      "evidenceSummary": "Launch and opening movie were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load including overwriting a save, save thumbnails and the opening movie."
     },
     {
       "id": "nukitashi-remaster-trial",
@@ -656,18 +656,18 @@
         "D3D9"
       ],
       "route": "Melammu shared SoftDenchi prefix",
-      "verifiedAt": "2026-07-05",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [],
-      "evidenceSummary": "DMM authentication and gameplay were confirmed through the shared SoftDenchi prefix."
+      "evidenceSummary": "DMM authentication and gameplay were confirmed through the shared SoftDenchi prefix. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load including overwriting a save, save thumbnails, movies and fonts."
     },
     {
       "id": "eromanga-hd-remaster",
@@ -738,20 +738,20 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "Melammu shared SoftDenchi prefix",
-      "verifiedAt": "2026-07-17",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
         "Graphics backend is dynamically selected and has not been established by runtime trace."
       ],
-      "evidenceSummary": "Nested archive extraction, shared-prefix registration, and gameplay were confirmed."
+      "evidenceSummary": "Nested archive extraction, shared-prefix registration, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and the ending movie."
     },
     {
       "id": "amatarasu-riddle-star-trial",
