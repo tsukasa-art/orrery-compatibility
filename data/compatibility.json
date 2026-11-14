@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:55d5c75ddacd131d007572d199987839aa71d7bcdbc9401df2ef9881a686cb0a",
+  "sourceDigest": "sha256:468fddcc62834e413ec7aec760e99ba6bafe02f0df27d62ec55d7c1c130e5b9d",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -78,18 +78,18 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-14",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Native-managed migration and launch were recorded; the current canon does not enumerate every functional axis."
+      "evidenceSummary": "Native-managed migration and launch were recorded; the current canon does not enumerate every functional axis. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for BGM, voice and sound effects, save/load, save thumbnails and the ending movie."
     },
     {
       "id": "houkago-cinderella",
@@ -218,20 +218,21 @@
         "D3D9"
       ],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-07-01",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "not-applicable",
         "installerAuth": "not-applicable"
       },
       "constraints": [
-        "The official entry point is Start.exe."
+        "The official entry point is Start.exe.",
+        "With the game library on an external volume, KASANE 1.0.12 (21) and earlier lose track of RealLive.exe, which Start.exe launches, and close the game a few seconds after launch. The fix is in the development build and not yet in a release."
       ],
-      "evidenceSummary": "The official launcher route and opening movie using the normal MCI option were confirmed."
+      "evidenceSummary": "The official launcher route and opening movie using the normal MCI option were confirmed. On 2026-11-14, save/load and the movie were confirmed on a real Mac with the development build of the launcher; the save screen of this title has no thumbnails."
     },
     {
       "id": "homestay-a-la-mode-trial",
@@ -393,20 +394,20 @@
         "Direct2D / D3D11"
       ],
       "route": "Melammu + title-local Wine 10 i386 runtime",
-      "verifiedAt": "2026-07-19",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "not-applicable"
       },
       "constraints": [
         "Numeric frame-time performance was not measured."
       ],
-      "evidenceSummary": "Normal rendering, audio, transitions, movie playback, and first-load preparation were confirmed on the launcher route."
+      "evidenceSummary": "Normal rendering, audio, transitions, movie playback, and first-load preparation were confirmed on the launcher route. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and movies."
     },
     {
       "id": "study-steady-trial",
@@ -455,20 +456,20 @@
         "D3D9"
       ],
       "route": "Melammu + title-specific runtime overlay",
-      "verifiedAt": "2026-07-02",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
         "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [
         "Warm movie start remains slower than the Windows comparison; no regression against the prior Mac route was found."
       ],
-      "evidenceSummary": "DirectX-on opening movie playback was restored and compared against the former working route."
+      "evidenceSummary": "DirectX-on opening movie playback was restored and compared against the former working route. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails, movies, and save/load including overwriting a save."
     },
     {
       "id": "hamidashi-creative",
@@ -513,20 +514,20 @@
         "D3D9"
       ],
       "route": "Melammu + title-specific runtime overlay",
-      "verifiedAt": "2026-08-23",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
         "Startup time was subjectively long and has not been measured."
       ],
-      "evidenceSummary": "Installer flow, startup movie, start/load screen, and main text rendering were reverified in installed Release 1.0.4 (12)."
+      "evidenceSummary": "Installer flow, startup movie, start/load screen, and main text rendering were reverified in installed Release 1.0.4 (12). On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and movies."
     },
     {
       "id": "kateikyoushi-no-oneesan",
@@ -628,18 +629,18 @@
         "D3D9"
       ],
       "route": "Melammu shared SoftDenchi prefix",
-      "verifiedAt": "2026-07-04",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "unverified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [],
-      "evidenceSummary": "Two full-from-scratch owner-observed runs reached gameplay."
+      "evidenceSummary": "Two full-from-scratch owner-observed runs reached gameplay. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load and save thumbnails."
     },
     {
       "id": "sugar-style",
@@ -712,18 +713,18 @@
         "D3D9"
       ],
       "route": "Melammu shared SoftDenchi prefix",
-      "verifiedAt": "2026-07-17",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "unverified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [],
-      "evidenceSummary": "Archive extraction, shared-prefix registration, Start.exe launch, and gameplay were confirmed."
+      "evidenceSummary": "Archive extraction, shared-prefix registration, Start.exe launch, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load and save thumbnails."
     },
     {
       "id": "sugar-style-after-story",

@@ -20,29 +20,29 @@ Windows向けビジュアルノベルをMac上のWine互換環境で検証した
 |---|---|---|---|---|---|
 | アマツツミ体験版v2 | Purple software | 体験版v2 | CMVS | 起動・描画確認済み | 2026-06-29 |
 | 青春フラジャイル体験版v2 | Purple software | 体験版v2 | CMVS | 起動・描画確認済み | 2026-06-29 |
-| 妹のセイイキ | feng | 製品版 | KiriKiri | 起動・描画確認済み | 2026-06-14 |
+| 妹のセイイキ | feng | 製品版 | KiriKiri | 起動・描画確認済み | 2026-11-14 |
 | 放課後シンデレラ | HOOKSOFT | 製品版 | BGI / Ethornell | 起動・描画確認済み | 2026-11-14 |
 | 放課後シンデレラ 体験版 | HOOKSOFT | 体験版 | BGI / Ethornell | 起動・描画確認済み | 2026-11-14 |
 | 放課後シンデレラ ミニファンディスク | HOOKSOFT | ミニファンディスク | BGI / Ethornell | 起動・描画確認済み | 2026-11-14 |
 | 放課後シンデレラ2 | HOOKSOFT | 製品版 | BGI / Ethornell | 起動・描画確認済み | 2026-11-14 |
-| ナツユメナギサ体験版 | SAGA PLANETS | 体験版 | RealLive | 起動・描画確認済み | 2026-07-01 |
+| ナツユメナギサ体験版 | SAGA PLANETS | 体験版 | RealLive | 起動・描画確認済み | 2026-11-14 |
 | HOMESTAY a la mode 体験版 | アトリエかぐや | 体験版 | Yaneurao GameSDK | 起動・描画確認済み | 2026-06-14 |
 | Making Lovers | SMEE | 製品版 | BGI / Ethornell | 起動・描画確認済み | 2026-11-14 |
 | ゆびさきコネクション | HOOKSOFT | 製品版 | BGI / Ethornell | 起動・描画確認済み | 2026-11-14 |
 | 抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか？Remaster 体験版 | Qruppo | 体験版 | Artemis / iarsys | 起動・描画確認済み | 2026-06-23 |
 | ギャルズフィクション体験版 | 自宅すたじお | 体験版 | Artemis / iarsys | 起動・描画確認済み | 2026-07-02 |
-| ライムライト・レモネードジャム 体験版 | ゆずソフト | 体験版 | KiriKiri2 / TVP | 起動・描画確認済み | 2026-07-19 |
+| ライムライト・レモネードジャム 体験版 | ゆずソフト | 体験版 | KiriKiri2 / TVP | 起動・描画確認済み | 2026-11-14 |
 | スタディ§ステディ体験版 | ま～まれぇど | 体験版 | marmalade / EntisGLS + Emote | 起動・描画確認済み | 2026-11-14 |
-| フルキスS | 戯画 | 製品版 | GIGA / PAC | 起動・描画確認済み | 2026-07-02 |
+| フルキスS | 戯画 | 製品版 | GIGA / PAC | 起動・描画確認済み | 2026-11-14 |
 | ハミダシクリエイティブ | まどそふと | 製品版 | Artemis | 起動・描画確認済み | 2026-07-23 |
-| アイベヤ2 | あざらしそふと | 製品版 | CatSystem2 | 起動・描画確認済み | 2026-08-23 |
+| アイベヤ2 | あざらしそふと | 製品版 | CatSystem2 | 起動・描画確認済み | 2026-11-14 |
 | 家庭教師のおねえさん | アトリエかぐや | 製品版 | Yaneurao GameSDK | 起動・描画確認済み | 2026-06-14 |
 | バブルdeハウスde〇〇〇 | アトリエかぐや | 製品版 | Yaneurao GameSDK | 起動・描画確認済み | 2026-06-15 |
 | 夏汁100% | アトリエかぐや | 製品版 | Yaneurao GameSDK / SoftDenchi | 起動・描画確認済み | 2026-07-04 |
-| なまイキ | アトリエかぐや | 製品版 | Yaneurao GameSDK / SoftDenchi | 起動・描画確認済み | 2026-07-04 |
+| なまイキ | アトリエかぐや | 製品版 | Yaneurao GameSDK / SoftDenchi | 起動・描画確認済み | 2026-11-14 |
 | SugarStyle | SMEE | 製品版 | BGI / Ethornell / SoftDenchi | 起動・描画確認済み | 2026-11-14 |
 | えろまんが Hもマンガもステップアップ♪ HDリマスター | CLOCKUP | HDリマスター製品版 | YU-RIS / SoftDenchi | 起動・描画確認済み | 2026-07-17 |
-| お姉さん×SHUFFLE！ | アトリエかぐや | 製品版 | Yaneurao GameSDK / SoftDenchi | 起動・描画確認済み | 2026-07-17 |
+| お姉さん×SHUFFLE！ | アトリエかぐや | 製品版 | Yaneurao GameSDK / SoftDenchi | 起動・描画確認済み | 2026-11-14 |
 | SugarStyle 恋人以上夫婦未満アフターストーリー | SMEE | 特典アフターストーリー | BGI / Ethornell / SoftDenchi | 起動・描画確認済み | 2026-11-14 |
 | あまたらすリドルスター体験版 | seal-QUALIA | 体験版 | KiriKiri / XP3 | 起動・描画確認済み | 2026-11-14 |
 | D.C.III R X-rated | CIRCUS | 製品版 | CIRCUS ADV / CIRCUS online activation | 起動・描画確認済み | 2026-07-06 |
