@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:468fddcc62834e413ec7aec760e99ba6bafe02f0df27d62ec55d7c1c130e5b9d",
+  "sourceDigest": "sha256:82a5a297deaaff99d9324219ddbbc29d6e40320d16cd50b645ec3ec69549fe0b",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -247,20 +247,20 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-14",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
         "movie": "unverified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "not-applicable"
       },
       "constraints": [
         "Graphics backend is packed or dynamically selected and is not statically established."
       ],
-      "evidenceSummary": "The title was confirmed after the font-resolution issue was corrected."
+      "evidenceSummary": "The title was confirmed after the font-resolution issue was corrected. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and save thumbnails; no movie was found during play, only animated CG scenes."
     },
     {
       "id": "making-lovers",
@@ -542,20 +542,20 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-14",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
         "saveLoad": "verified",
         "movie": "unverified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [
         "Graphics backend is packed or dynamically selected and has not been established by runtime trace."
       ],
-      "evidenceSummary": "The retained library entry had active saves and was recorded as verified."
+      "evidenceSummary": "The retained library entry had active saves and was recorded as verified. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails."
     },
     {
       "id": "bubble-de-house",
@@ -570,20 +570,20 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "Melammu + swingby-wine",
-      "verifiedAt": "2026-06-15",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
+        "audio": "verified",
         "saveLoad": "verified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "unverified"
       },
       "constraints": [
         "Graphics backend is packed or dynamically selected and has not been established by runtime trace."
       ],
-      "evidenceSummary": "The retained verified entry and original save data were checked during deduplication."
+      "evidenceSummary": "The retained verified entry and original save data were checked during deduplication. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save thumbnails and the ending movie."
     },
     {
       "id": "natsujiru-100",
@@ -598,21 +598,20 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "Melammu shared SoftDenchi prefix",
-      "verifiedAt": "2026-07-04",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
         "movie": "unverified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
-        "The prior installed copy was removed and would need to be installed again for a current run.",
         "Graphics backend is not established."
       ],
-      "evidenceSummary": "Two full-from-scratch runs reached gameplay on 2026-07-04; cleanup did not invalidate that historical result."
+      "evidenceSummary": "Two full-from-scratch runs reached gameplay on 2026-07-04; cleanup did not invalidate that historical result. On 2026-11-14, a reinstalled copy on installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and save thumbnails."
     },
     {
       "id": "namaiki",
@@ -683,20 +682,20 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "Melammu shared SoftDenchi prefix",
-      "verifiedAt": "2026-07-17",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
         "The first multipart archive import required reselecting the existing folder."
       ],
-      "evidenceSummary": "Three-volume extraction, shared-prefix placement, launch, and gameplay were confirmed."
+      "evidenceSummary": "Three-volume extraction, shared-prefix placement, launch, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for the opening movie, save/load including overwriting a save, save thumbnails and fonts."
     },
     {
       "id": "oneesan-shuffle",
@@ -801,20 +800,20 @@
         "DirectDraw"
       ],
       "route": "Melammu folder import or installer flow",
-      "verifiedAt": "2026-07-06",
+      "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "not-applicable",
         "installerAuth": "verified"
       },
       "constraints": [
         "Initial discless activation requires the publisher's online authentication service and a valid serial."
       ],
-      "evidenceSummary": "Folder import and installer routes both reached the title screen and completed legitimate online discless activation."
+      "evidenceSummary": "Folder import and installer routes both reached the title screen and completed legitimate online discless activation. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and the full opening movie; the save screen of this title has no thumbnails."
     },
     {
       "id": "suiheisen-made-nan-mile",
