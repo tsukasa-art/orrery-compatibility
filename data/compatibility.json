@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:82a5a297deaaff99d9324219ddbbc29d6e40320d16cd50b645ec3ec69549fe0b",
+  "sourceDigest": "sha256:0e6daae58b45b3c06755be7261705aae3d08f3793a0acb43282a9a5ddbdfa24e",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -828,21 +828,21 @@
       "architecture": "32-bit game process",
       "graphicsBackend": [],
       "route": "DMM GAME PLAYER via Melammu",
-      "verifiedAt": "2026-07-15",
+      "verifiedAt": "2026-11-15",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
         "audio": "verified",
-        "saveLoad": "unverified",
+        "saveLoad": "verified",
         "movie": "verified",
-        "thumbnail": "unverified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
         "The game is launched through DMM GAME PLAYER rather than as an independent Melammu library entry.",
         "Graphics backend is not established by runtime trace."
       ],
-      "evidenceSummary": "Official download/install, device registration, launcher-mediated game start, font correction, and logo movie rendering were confirmed."
+      "evidenceSummary": "Official download/install, device registration, launcher-mediated game start, font correction, and logo movie rendering were confirmed. On 2026-11-15, it was confirmed on a real Mac through DMM GAME PLAYER 5.5.26 installed by Melammu's update button (Melammu Debug build) for save/load, fonts, audio, save thumbnails, settings and the opening movie."
     },
     {
       "id": "ushinawareta-mirai",
@@ -857,21 +857,21 @@
       "architecture": "32-bit",
       "graphicsBackend": [],
       "route": "DMM GAME PLAYER via Melammu",
-      "verifiedAt": "2026-07-15",
+      "verifiedAt": "2026-11-15",
       "axes": {
         "launch": "verified",
         "rendering": "verified",
-        "audio": "unverified",
-        "saveLoad": "unverified",
-        "movie": "unverified",
-        "thumbnail": "unverified",
+        "audio": "verified",
+        "saveLoad": "verified",
+        "movie": "verified",
+        "thumbnail": "verified",
         "installerAuth": "verified"
       },
       "constraints": [
         "The game is launched through DMM GAME PLAYER rather than as an independent Melammu library entry.",
         "Renderer/backend is not established by runtime trace."
       ],
-      "evidenceSummary": "Official launcher-mediated startup and gameplay were confirmed; executable and KAG/TJS/plugin structure were inspected."
+      "evidenceSummary": "Official launcher-mediated startup and gameplay were confirmed; executable and KAG/TJS/plugin structure were inspected. On 2026-11-15, it was confirmed on a real Mac through DMM GAME PLAYER 5.5.26 installed by Melammu's update button (Melammu Debug build) for save/load, fonts, audio, character sprites, save thumbnails, settings and the opening movie."
     },
     {
       "id": "kanojo-step",

@@ -46,8 +46,8 @@ Windows向けビジュアルノベルをMac上のWine互換環境で検証した
 | SugarStyle 恋人以上夫婦未満アフターストーリー | SMEE | 特典アフターストーリー | BGI / Ethornell / SoftDenchi | 起動・描画確認済み | 2026-11-14 |
 | あまたらすリドルスター体験版 | seal-QUALIA | 体験版 | KiriKiri / XP3 | 起動・描画確認済み | 2026-11-14 |
 | D.C.III R X-rated | CIRCUS | 製品版 | CIRCUS ADV / CIRCUS online activation | 起動・描画確認済み | 2026-11-14 |
-| 水平線まで何マイル？ | ABHAR | DMM版 | KiriKiri2 / DMM GAME PLAYER | 起動・描画確認済み | 2026-07-15 |
-| 失われた未来を求めて | TRUMPLE | DMM版 | KiriKiri family / DMM GAME PLAYER | 起動・描画確認済み | 2026-07-15 |
+| 水平線まで何マイル？ | ABHAR | DMM版 | KiriKiri2 / DMM GAME PLAYER | 起動・描画確認済み | 2026-11-15 |
+| 失われた未来を求めて | TRUMPLE | DMM版 | KiriKiri family / DMM GAME PLAYER | 起動・描画確認済み | 2026-11-15 |
 | カノジョ＊ステップ | SMEE | メガストア2026年12月号付録（完全収録） | BGI / Ethornell | 起動・描画確認済み | 2026-11-13 |
 | カタネガイ体験版 | インテグラル | 体験版 | Light.vn | 起動・描画確認済み | 2026-11-13 |
 | まいてつ Last Run!! 体験版 | Lose | 体験版 | KiriKiri Z | 起動・描画確認済み | 2026-11-13 |
