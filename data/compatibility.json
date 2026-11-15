@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datasetUpdated": "2026-11-14",
-  "sourceDigest": "sha256:0e6daae58b45b3c06755be7261705aae3d08f3793a0acb43282a9a5ddbdfa24e",
+  "sourceDigest": "sha256:45b9d8e5329e2be4d84ad4a188a9086424b72544d4d9dc0a68491519f3311b35",
   "scope": "Public-safe title compatibility observations derived from the private Melammu verification canon.",
   "records": [
     {
@@ -33,7 +33,11 @@
       "constraints": [
         "Backend differs between cmvs32.exe and cmvs64.exe."
       ],
-      "evidenceSummary": "Rendering, save, thumbnail, and movie were confirmed; executable imports were fingerprinted."
+      "evidenceSummary": "Rendering, save, thumbnail, and movie were confirmed; executable imports were fingerprinted.",
+      "constraintsJa": [
+        "cmvs32.exe と cmvs64.exe で、描画の仕組み（バックエンド）が違う。"
+      ],
+      "evidenceSummaryJa": "描画・セーブ・セーブのサムネイル・動画を確認した。実行ファイルが読み込む DLL から描画の方式を特定した。"
     },
     {
       "id": "seishun-fragile-trial-v2",
@@ -61,7 +65,9 @@
         "installerAuth": "not-applicable"
       },
       "constraints": [],
-      "evidenceSummary": "Rendering, save, thumbnail, and opening movie were confirmed; D3D11 imports were fingerprinted."
+      "evidenceSummary": "Rendering, save, thumbnail, and opening movie were confirmed; D3D11 imports were fingerprinted.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "描画・セーブ・セーブのサムネイル・オープニング動画を確認した。実行ファイルが Direct3D 11 を読み込むことも確かめた。"
     },
     {
       "id": "imouto-no-seiiki",
@@ -89,7 +95,10 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Native-managed migration and launch were recorded; the current canon does not enumerate every functional axis. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for BGM, voice and sound effects, save/load, save thumbnails and the ending movie."
+      "evidenceSummary": "Native-managed migration and launch were recorded; the current canon does not enumerate every functional axis. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for BGM, voice and sound effects, save/load, save thumbnails and the ending movie.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "KASANE で管理する形への移行と起動を記録済み（当時の記録は項目ごとの確認を書き分けていない）。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、BGM・ボイス・効果音、セーブ／ロード、セーブのサムネイル、エンディング動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "houkago-cinderella",
@@ -117,7 +126,10 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Title screen, settings, save/load, voice, and font rendering were confirmed; audio regression was rechecked. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails, the opening and ending movies, and save/load."
+      "evidenceSummary": "Title screen, settings, save/load, voice, and font rendering were confirmed; audio regression was rechecked. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails, the opening and ending movies, and save/load.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "タイトル画面・設定・セーブ／ロード・ボイス・フォントの表示を確認し、音声の不具合が戻っていないことも確かめた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブのサムネイル、オープニングとエンディングの動画、セーブ／ロードを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "houkago-cinderella-trial",
@@ -145,7 +157,10 @@
         "installerAuth": "not-applicable"
       },
       "constraints": [],
-      "evidenceSummary": "Shared DirectSound restoration was checked for audio regression. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and the movie."
+      "evidenceSummary": "Shared DirectSound restoration was checked for audio regression. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and the movie.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "共有の DirectSound を元に戻した際に、音声が悪くなっていないことを確かめた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブ／ロード、セーブのサムネイル、動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "houkago-cinderella-mini-fandisc",
@@ -173,7 +188,10 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "The title is recorded as verified, without a current per-axis breakdown. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load, save thumbnails and the ending movie."
+      "evidenceSummary": "The title is recorded as verified, without a current per-axis breakdown. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load, save thumbnails and the ending movie.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "動作確認済みとして記録されているが、当時の記録は項目ごとの内訳を持たない。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、セーブ／ロード、セーブのサムネイル、エンディング動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "houkago-cinderella-2",
@@ -201,7 +219,10 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Launch and opening movie were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load, save thumbnails and the opening movie."
+      "evidenceSummary": "Launch and opening movie were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load, save thumbnails and the opening movie.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "起動とオープニング動画を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、セーブ／ロード、セーブのサムネイル、オープニング動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "natsuyume-nagisa-trial",
@@ -230,9 +251,14 @@
       },
       "constraints": [
         "The official entry point is Start.exe.",
-        "With the game library on an external volume, KASANE 1.0.12 (21) and earlier lose track of RealLive.exe, which Start.exe launches, and close the game a few seconds after launch. The fix is in the development build and not yet in a release."
+        "With the game library on an external volume, KASANE 1.0.12 (21) and earlier lose track of RealLive.exe, which Start.exe launches, and close the game a few seconds after launch. The fix ships in KASANE 1.0.13 (22); it has not yet been rechecked on that release."
       ],
-      "evidenceSummary": "The official launcher route and opening movie using the normal MCI option were confirmed. On 2026-11-14, save/load and the movie were confirmed on a real Mac with the development build of the launcher; the save screen of this title has no thumbnails."
+      "evidenceSummary": "The official launcher route and opening movie using the normal MCI option were confirmed. On 2026-11-14, save/load and the movie were confirmed on a real Mac with the development build of the launcher; the save screen of this title has no thumbnails.",
+      "constraintsJa": [
+        "公式の起動入口は Start.exe。",
+        "ゲームの置き場所を外付けのドライブにしていると、KASANE 1.0.12 (21) 以前は Start.exe が起動する RealLive.exe を見失い、起動から数秒でゲームを閉じてしまう。修正は KASANE 1.0.13 (22) に入っている（その版での再確認はまだ）。"
+      ],
+      "evidenceSummaryJa": "公式の起動入口からの起動と、通常の MCI 設定でのオープニング動画を確認した。2026年11月14日、KASANE の開発版で、セーブ／ロードと動画を実機の Mac で確認した。この作品のセーブ画面にはサムネイルが無い。"
     },
     {
       "id": "homestay-a-la-mode-trial",
@@ -260,7 +286,12 @@
       "constraints": [
         "Graphics backend is packed or dynamically selected and is not statically established."
       ],
-      "evidenceSummary": "The title was confirmed after the font-resolution issue was corrected. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and save thumbnails; no movie was found during play, only animated CG scenes."
+      "evidenceSummary": "The title was confirmed after the font-resolution issue was corrected. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and save thumbnails; no movie was found during play, only animated CG scenes.",
+      "constraintsJa": [
+        "描画の仕組みは圧縮されているか実行時に選ばれるため、ファイルを調べただけでは特定できていない。"
+      ],
+      "evidenceSummaryJa": "フォントの解決の不具合を直したあとに動作を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、セーブ／ロード、セーブのサムネイルを実機の Mac で確認した。遊んだ範囲に動画は無く、動く CG の場面だけだった。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "making-lovers",
@@ -288,7 +319,10 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "The opening movie was rechecked successfully. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load including overwriting a save, save thumbnails, and the opening and ending movies."
+      "evidenceSummary": "The opening movie was rechecked successfully. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load including overwriting a save, save thumbnails, and the opening and ending movies.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "オープニング動画を確かめ直し、正常に再生された。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、上書きを含むセーブ／ロード、セーブのサムネイル、オープニングとエンディングの動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "yubisaki-connection",
@@ -316,7 +350,10 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Launch and opening movie were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load including overwriting a save, save thumbnails and the opening movie."
+      "evidenceSummary": "Launch and opening movie were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load including overwriting a save, save thumbnails and the opening movie.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "起動とオープニング動画を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、上書きを含むセーブ／ロード、セーブのサムネイル、オープニング動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "nukitashi-remaster-trial",
@@ -346,7 +383,11 @@
       "constraints": [
         "iarsys is a protection and license wrapper, not the rendering engine."
       ],
-      "evidenceSummary": "Video and black-thumbnail failures were confirmed resolved on the Artemis plus iarsys route."
+      "evidenceSummary": "Video and black-thumbnail failures were confirmed resolved on the Artemis plus iarsys route.",
+      "constraintsJa": [
+        "iarsys はコピー保護とライセンスの仕組みで、描画のエンジンではない。"
+      ],
+      "evidenceSummaryJa": "Artemis と iarsys の組み合わせで、動画と、サムネイルが黒くなる不具合が解消したことを確認した。"
     },
     {
       "id": "gals-fiction-trial",
@@ -376,7 +417,11 @@
       "constraints": [
         "iarsys is a protection and license wrapper, not the rendering engine."
       ],
-      "evidenceSummary": "Main rendering, thumbnail readback, and the ending movie were verified through runtime trace and owner observation."
+      "evidenceSummary": "Main rendering, thumbnail readback, and the ending movie were verified through runtime trace and owner observation.",
+      "constraintsJa": [
+        "iarsys はコピー保護とライセンスの仕組みで、描画のエンジンではない。"
+      ],
+      "evidenceSummaryJa": "本編の描画、サムネイルの読み取り、エンディング動画を、実行時の記録と本人の目視で確認した。"
     },
     {
       "id": "limelight-lemonade-jam-trial",
@@ -407,7 +452,12 @@
       "constraints": [
         "Numeric frame-time performance was not measured."
       ],
-      "evidenceSummary": "Normal rendering, audio, transitions, movie playback, and first-load preparation were confirmed on the launcher route. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and movies."
+      "evidenceSummary": "Normal rendering, audio, transitions, movie playback, and first-load preparation were confirmed on the launcher route. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and movies.",
+      "constraintsJa": [
+        "描画の速さ（1コマにかかる時間）は数値で測っていない。"
+      ],
+      "evidenceSummaryJa": "KASANE からの起動で、通常の描画、音声、画面の切り替え効果、動画の再生、初回起動時の準備を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブ／ロード、セーブのサムネイル、動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "study-steady-trial",
@@ -424,7 +474,7 @@
         "D3D9",
         "OpenGL"
       ],
-      "route": "Melammu + swingby-wine",
+      "route": "Melammu + title compatibility profile",
       "verifiedAt": "2026-11-14",
       "axes": {
         "launch": "verified",
@@ -439,7 +489,13 @@
         "Smooth rendering depends on a title profile that routes Direct3D 9 to DXVK. On Wine's default Direct3D 9 (wined3d over macOS OpenGL), the 32-bit buffer mapping path slowed Live2D/Emote scenes to about 3-11 fps.",
         "The title profile ships in KASANE 1.0.12 (21) and later."
       ],
-      "evidenceSummary": "Main story, save/load, save thumbnails, and the opening PV were confirmed with Direct3D 9 on DXVK at about 60 fps; KASANE 1.0.12 (21) then applied the title profile on a reset prefix, loaded DXVK, and ran at about 63 fps. Binary imports include both D3D9 and OpenGL, but the game presents through D3D9 only."
+      "evidenceSummary": "Main story, save/load, save thumbnails, and the opening PV were confirmed with Direct3D 9 on DXVK at about 60 fps; KASANE 1.0.12 (21) then applied the title profile on a reset prefix, loaded DXVK, and ran at about 63 fps. Binary imports include both D3D9 and OpenGL, but the game presents through D3D9 only.",
+      "constraintsJa": [
+        "なめらかに描くには、Direct3D 9 を DXVK に回すタイトル別の設定が要る。Wine 既定の Direct3D 9（macOS の OpenGL の上で動く wined3d）では 32bit のバッファの扱いが遅く、Live2D／Emote の場面が毎秒3〜11コマ程度まで落ちた。",
+        "このタイトル別の設定は KASANE 1.0.12 (21) 以降に入っている。"
+      ],
+      "evidenceSummaryJa": "Direct3D 9 を DXVK に回した状態で、本編、セーブ／ロード、セーブのサムネイル、オープニング PV を毎秒約60コマで確認した。その後、KASANE 1.0.12 (21) が初期化した環境にタイトル別の設定を当てて DXVK を読み込み、毎秒約63コマで動いた。実行ファイルは D3D9 と OpenGL の両方を読み込むが、画面への表示には D3D9 だけを使う。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "furukiss-s",
@@ -469,7 +525,12 @@
       "constraints": [
         "Warm movie start remains slower than the Windows comparison; no regression against the prior Mac route was found."
       ],
-      "evidenceSummary": "DirectX-on opening movie playback was restored and compared against the former working route. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails, movies, and save/load including overwriting a save."
+      "evidenceSummary": "DirectX-on opening movie playback was restored and compared against the former working route. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails, movies, and save/load including overwriting a save.",
+      "constraintsJa": [
+        "2回目以降の動画の始まりは、Windows で比べたときより遅い。以前の Mac での動かし方と比べて悪くはなっていない。"
+      ],
+      "evidenceSummaryJa": "DirectX をオンにした設定でのオープニング動画の再生を直し、以前に動いていた動かし方と比べた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブのサムネイル、動画、上書きを含むセーブ／ロードを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "hamidashi-creative",
@@ -497,7 +558,9 @@
         "installerAuth": "unverified"
       },
       "constraints": [],
-      "evidenceSummary": "Main rendering, save/load, non-black thumbnails, audio, and movie playback were confirmed in the canonical installed application."
+      "evidenceSummary": "Main rendering, save/load, non-black thumbnails, audio, and movie playback were confirmed in the canonical installed application.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "インストールした正式なアプリで、本編の描画、セーブ／ロード、黒くないサムネイル、音声、動画の再生を確認した。"
     },
     {
       "id": "aibeya-2",
@@ -527,7 +590,12 @@
       "constraints": [
         "Startup time was subjectively long and has not been measured."
       ],
-      "evidenceSummary": "Installer flow, startup movie, start/load screen, and main text rendering were reverified in installed Release 1.0.4 (12). On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and movies."
+      "evidenceSummary": "Installer flow, startup movie, start/load screen, and main text rendering were reverified in installed Release 1.0.4 (12). On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and movies.",
+      "constraintsJa": [
+        "起動に時間がかかる印象があるが、測ってはいない。"
+      ],
+      "evidenceSummaryJa": "KASANE 1.0.4 (12)（配布版）で、インストーラーからの取り込み、起動時の動画、スタート／ロード画面、本文の表示を確かめ直した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブ／ロード、セーブのサムネイル、動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "kateikyoushi-no-oneesan",
@@ -555,7 +623,12 @@
       "constraints": [
         "Graphics backend is packed or dynamically selected and has not been established by runtime trace."
       ],
-      "evidenceSummary": "The retained library entry had active saves and was recorded as verified. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails."
+      "evidenceSummary": "The retained library entry had active saves and was recorded as verified. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save thumbnails.",
+      "constraintsJa": [
+        "描画の仕組みは圧縮されているか実行時に選ばれるため、実行時の記録でもまだ特定できていない。"
+      ],
+      "evidenceSummaryJa": "残しているライブラリの登録にはセーブが入っていて、動作確認済みとして記録されていた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブのサムネイルを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "bubble-de-house",
@@ -583,7 +656,12 @@
       "constraints": [
         "Graphics backend is packed or dynamically selected and has not been established by runtime trace."
       ],
-      "evidenceSummary": "The retained verified entry and original save data were checked during deduplication. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save thumbnails and the ending movie."
+      "evidenceSummary": "The retained verified entry and original save data were checked during deduplication. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save thumbnails and the ending movie.",
+      "constraintsJa": [
+        "描画の仕組みは圧縮されているか実行時に選ばれるため、実行時の記録でもまだ特定できていない。"
+      ],
+      "evidenceSummaryJa": "重複の整理のときに、残した確認済みの登録と元のセーブデータを確かめた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、セーブのサムネイル、エンディング動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "natsujiru-100",
@@ -611,7 +689,12 @@
       "constraints": [
         "Graphics backend is not established."
       ],
-      "evidenceSummary": "Two full-from-scratch runs reached gameplay on 2026-07-04; cleanup did not invalidate that historical result. On 2026-11-14, a reinstalled copy on installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and save thumbnails."
+      "evidenceSummary": "Two full-from-scratch runs reached gameplay on 2026-07-04; cleanup did not invalidate that historical result. On 2026-11-14, a reinstalled copy on installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and save thumbnails.",
+      "constraintsJa": [
+        "描画の仕組みは特定できていない。"
+      ],
+      "evidenceSummaryJa": "2026年7月4日、何もない状態から2回やり直して、どちらも本編まで届いた（その後の整理でこの結果は無効になっていない）。2026年11月14日、入れ直したものを KASANE 1.0.12 (21)（配布版）で動かし、音声、セーブ／ロード、セーブのサムネイルを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "namaiki",
@@ -639,7 +722,10 @@
         "installerAuth": "verified"
       },
       "constraints": [],
-      "evidenceSummary": "Two full-from-scratch owner-observed runs reached gameplay. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load and save thumbnails."
+      "evidenceSummary": "Two full-from-scratch owner-observed runs reached gameplay. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load and save thumbnails.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "何もない状態から2回やり直し、本人の目視でどちらも本編まで届いた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブ／ロードとセーブのサムネイルを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "sugar-style",
@@ -667,7 +753,10 @@
         "installerAuth": "verified"
       },
       "constraints": [],
-      "evidenceSummary": "DMM authentication and gameplay were confirmed through the shared SoftDenchi prefix. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load including overwriting a save, save thumbnails, movies and fonts."
+      "evidenceSummary": "DMM authentication and gameplay were confirmed through the shared SoftDenchi prefix. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load including overwriting a save, save thumbnails, movies and fonts.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "ソフト電池の作品で共有する環境で、DMM の認証と本編を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、上書きを含むセーブ／ロード、セーブのサムネイル、動画、フォントを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "eromanga-hd-remaster",
@@ -695,7 +784,12 @@
       "constraints": [
         "The first multipart archive import required reselecting the existing folder."
       ],
-      "evidenceSummary": "Three-volume extraction, shared-prefix placement, launch, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for the opening movie, save/load including overwriting a save, save thumbnails and fonts."
+      "evidenceSummary": "Three-volume extraction, shared-prefix placement, launch, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for the opening movie, save/load including overwriting a save, save thumbnails and fonts.",
+      "constraintsJa": [
+        "分割された圧縮ファイルを初めて取り込んだとき、既存のフォルダを選び直す必要があった。"
+      ],
+      "evidenceSummaryJa": "3分割の圧縮ファイルの展開、共有環境への配置、起動、本編を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、オープニング動画、上書きを含むセーブ／ロード、セーブのサムネイル、フォントを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "oneesan-shuffle",
@@ -723,7 +817,10 @@
         "installerAuth": "verified"
       },
       "constraints": [],
-      "evidenceSummary": "Archive extraction, shared-prefix registration, Start.exe launch, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load and save thumbnails."
+      "evidenceSummary": "Archive extraction, shared-prefix registration, Start.exe launch, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load and save thumbnails.",
+      "constraintsJa": [],
+      "evidenceSummaryJa": "圧縮ファイルの展開、共有環境への登録、Start.exe からの起動、本編を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブ／ロードとセーブのサムネイルを実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "sugar-style-after-story",
@@ -751,7 +848,12 @@
       "constraints": [
         "Graphics backend is dynamically selected and has not been established by runtime trace."
       ],
-      "evidenceSummary": "Nested archive extraction, shared-prefix registration, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and the ending movie."
+      "evidenceSummary": "Nested archive extraction, shared-prefix registration, and gameplay were confirmed. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for save/load, save thumbnails and the ending movie.",
+      "constraintsJa": [
+        "描画の仕組みは実行時に選ばれ、実行時の記録でもまだ特定できていない。"
+      ],
+      "evidenceSummaryJa": "入れ子になった圧縮ファイルの展開、共有環境への登録、本編を確認した。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、セーブ／ロード、セーブのサムネイル、エンディング動画を実機の Mac で確認した。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "amatarasu-riddle-star-trial",
@@ -780,10 +882,15 @@
         "installerAuth": "not-applicable"
       },
       "constraints": [
-        "The game relaunches itself right after start. The launcher fix that keeps following the relaunched process is not in KASANE 1.0.12 (21) or earlier; those builds close the game a few seconds after launch.",
+        "The game relaunches itself right after start. KASANE 1.0.12 (21) and earlier lose track of the relaunched process and close the game a few seconds after launch. The fix ships in KASANE 1.0.13 (22); it has not yet been rechecked on that release.",
         "Returning from the load or options screen during a movie scene can leave the story screen frozen. The same happens on Windows, so it is treated as game behavior."
       ],
-      "evidenceSummary": "On the unmodified game, the opening movie plays with audio through to the title screen, an existing save loads, including restoring a movie that was playing, and new saves are written with their thumbnails shown on the save screen. Confirmed on a development build of the launcher."
+      "evidenceSummary": "On the unmodified game, the opening movie plays with audio through to the title screen, an existing save loads, including restoring a movie that was playing, and new saves are written with their thumbnails shown on the save screen. Confirmed on a development build of the launcher.",
+      "constraintsJa": [
+        "ゲームは起動の直後に自分自身を起動し直す。KASANE 1.0.12 (21) 以前は起動し直したほうを見失い、起動から数秒でゲームを閉じてしまう。修正は KASANE 1.0.13 (22) に入っている（その版での再確認はまだ）。",
+        "動画の場面でロード画面や設定画面から戻ると、本編の画面が止まったままになることがある。Windows でも同じことが起きるので、ゲーム側の動きとして扱っている。"
+      ],
+      "evidenceSummaryJa": "ゲームに手を加えない状態で、オープニング動画が音つきでタイトル画面まで流れ、既存のセーブのロード（再生中だった動画の復元を含む）と、新しいセーブの書き込み、セーブ画面でのサムネイルの表示を確認した。確認は KASANE の開発版。"
     },
     {
       "id": "dc3-rx-rated",
@@ -813,7 +920,12 @@
       "constraints": [
         "Initial discless activation requires the publisher's online authentication service and a valid serial."
       ],
-      "evidenceSummary": "Folder import and installer routes both reached the title screen and completed legitimate online discless activation. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and the full opening movie; the save screen of this title has no thumbnails."
+      "evidenceSummary": "Folder import and installer routes both reached the title screen and completed legitimate online discless activation. On 2026-11-14, installed Release 1.0.12 (21) was confirmed on a real Mac for audio, save/load and the full opening movie; the save screen of this title has no thumbnails.",
+      "constraintsJa": [
+        "初回のディスクレス化には、販売元のオンライン認証と正しいシリアル番号が要る。"
+      ],
+      "evidenceSummaryJa": "フォルダからの取り込みとインストーラーの両方でタイトル画面まで届き、正規のオンライン認証によるディスクレス化を済ませた。2026年11月14日、KASANE 1.0.12 (21)（配布版）で、音声、セーブ／ロード、オープニング動画の最後までを実機の Mac で確認した。この作品のセーブ画面にはサムネイルが無い。",
+      "verifiedWith": "1.0.12 (21)"
     },
     {
       "id": "suiheisen-made-nan-mile",
@@ -842,7 +954,12 @@
         "The game is launched through DMM GAME PLAYER rather than as an independent Melammu library entry.",
         "Graphics backend is not established by runtime trace."
       ],
-      "evidenceSummary": "Official download/install, device registration, launcher-mediated game start, font correction, and logo movie rendering were confirmed. On 2026-11-15, it was confirmed on a real Mac through DMM GAME PLAYER 5.5.26 installed by Melammu's update button (Melammu Debug build) for save/load, fonts, audio, save thumbnails, settings and the opening movie."
+      "evidenceSummary": "Official download/install, device registration, launcher-mediated game start, font correction, and logo movie rendering were confirmed. On 2026-11-15, it was confirmed on a real Mac through DMM GAME PLAYER 5.5.26 installed by Melammu's update button (Melammu Debug build) for save/load, fonts, audio, save thumbnails, settings and the opening movie.",
+      "constraintsJa": [
+        "KASANE のライブラリに単独で登録するのではなく、DMM GAME PLAYER を通して起動する。",
+        "描画の仕組みは実行時の記録で特定できていない。"
+      ],
+      "evidenceSummaryJa": "公式のダウンロードとインストール、端末の登録、DMM GAME PLAYER からの起動、フォントの補正、ロゴ動画の表示を確認した。2026年11月15日、KASANE の更新ボタンで入れた DMM GAME PLAYER 5.5.26 を通して、セーブ／ロード、フォント、音声、セーブのサムネイル、設定、オープニング動画を実機の Mac で確認した（KASANE の開発版）。"
     },
     {
       "id": "ushinawareta-mirai",
@@ -871,7 +988,12 @@
         "The game is launched through DMM GAME PLAYER rather than as an independent Melammu library entry.",
         "Renderer/backend is not established by runtime trace."
       ],
-      "evidenceSummary": "Official launcher-mediated startup and gameplay were confirmed; executable and KAG/TJS/plugin structure were inspected. On 2026-11-15, it was confirmed on a real Mac through DMM GAME PLAYER 5.5.26 installed by Melammu's update button (Melammu Debug build) for save/load, fonts, audio, character sprites, save thumbnails, settings and the opening movie."
+      "evidenceSummary": "Official launcher-mediated startup and gameplay were confirmed; executable and KAG/TJS/plugin structure were inspected. On 2026-11-15, it was confirmed on a real Mac through DMM GAME PLAYER 5.5.26 installed by Melammu's update button (Melammu Debug build) for save/load, fonts, audio, character sprites, save thumbnails, settings and the opening movie.",
+      "constraintsJa": [
+        "KASANE のライブラリに単独で登録するのではなく、DMM GAME PLAYER を通して起動する。",
+        "描画の仕組みは実行時の記録で特定できていない。"
+      ],
+      "evidenceSummaryJa": "公式の DMM GAME PLAYER からの起動と本編を確認し、実行ファイルとスクリプト（KAG／TJS）・プラグインの構成を調べた。2026年11月15日、KASANE の更新ボタンで入れた DMM GAME PLAYER 5.5.26 を通して、セーブ／ロード、フォント、音声、立ち絵、セーブのサムネイル、設定、オープニング動画を実機の Mac で確認した（KASANE の開発版）。"
     },
     {
       "id": "kanojo-step",
@@ -902,7 +1024,13 @@
         "Sprite rendering depends on a title profile that reports four processors to the game; with the host's full core count, sprite pixels were intermittently left unwritten and the background showed through.",
         "Whether the same behavior occurs on many-core Windows PCs has not been checked."
       ],
-      "evidenceSummary": "Installer flow from the appendix DVD, title screen, prologue, opening movie, audio, save/load, and save thumbnails were confirmed in installed Release 1.0.10 (19) with the processor-count profile applied."
+      "evidenceSummary": "Installer flow from the appendix DVD, title screen, prologue, opening movie, audio, save/load, and save thumbnails were confirmed in installed Release 1.0.10 (19) with the processor-count profile applied.",
+      "constraintsJa": [
+        "立ち絵を正しく描くには、ゲームに CPU の数を4つと見せるタイトル別の設定が要る。Mac の全コア数のままだと、立ち絵の一部の点がときどき描かれず、背景が透けて見えた。",
+        "コア数の多い Windows PC でも同じことが起きるかは確かめていない。"
+      ],
+      "evidenceSummaryJa": "雑誌付録 DVD からのインストール、タイトル画面、プロローグ、オープニング動画、音声、セーブ／ロード、セーブのサムネイルを、CPU の数の設定を当てた KASANE 1.0.10 (19)（配布版）で確認した。",
+      "verifiedWith": "1.0.10 (19)"
     },
     {
       "id": "katanegai-trial",
@@ -933,7 +1061,13 @@
         "The engine renders through bundled ANGLE, which only tries Direct3D 11; Wine's default Direct3D 11 on macOS OpenGL offers no usable feature level, so the title profile routes Direct3D 11 to DXVK.",
         "Movies are WebM files played by the game's own FFmpeg, not by Wine's media stack."
       ],
-      "evidenceSummary": "Installer flow, title, main story, save/load, thumbnails, audio, opening movies, completion of the trial, and exit were confirmed with Direct3D 11 on DXVK; installed Release 1.0.11 (20) was then confirmed to apply the title profile on a reset prefix and reach the title screen."
+      "evidenceSummary": "Installer flow, title, main story, save/load, thumbnails, audio, opening movies, completion of the trial, and exit were confirmed with Direct3D 11 on DXVK; installed Release 1.0.11 (20) was then confirmed to apply the title profile on a reset prefix and reach the title screen.",
+      "constraintsJa": [
+        "このエンジンは同梱の ANGLE で描き、ANGLE は Direct3D 11 しか試さない。macOS の OpenGL の上で動く Wine 既定の Direct3D 11 では使える機能レベルが無いため、タイトル別の設定で Direct3D 11 を DXVK に回している。",
+        "動画は WebM で、Wine の動画の仕組みではなく、ゲームに同梱の FFmpeg が再生する。"
+      ],
+      "evidenceSummaryJa": "Direct3D 11 を DXVK に回した状態で、インストーラーからの取り込み、タイトル、本編、セーブ／ロード、サムネイル、音声、オープニング動画、体験版の最後まで、終了を確認した。その後、KASANE 1.0.11 (20)（配布版）が初期化した環境にタイトル別の設定を当て、タイトル画面まで届くことを確かめた。",
+      "verifiedWith": "1.0.11 (20)"
     },
     {
       "id": "maitetsu-last-run-trial",
@@ -963,7 +1097,12 @@
       "constraints": [
         "The trial archive contains no movie files, so movie playback was not exercised; the full version's movies are untested."
       ],
-      "evidenceSummary": "Folder import, title, main story with animated sprites, save/load, thumbnails, audio, and exit were confirmed in installed Release 1.0.11 (20) without a title-specific profile."
+      "evidenceSummary": "Folder import, title, main story with animated sprites, save/load, thumbnails, audio, and exit were confirmed in installed Release 1.0.11 (20) without a title-specific profile.",
+      "constraintsJa": [
+        "体験版のデータに動画が含まれないため、動画の再生は試せていない。製品版の動画は未確認。"
+      ],
+      "evidenceSummaryJa": "フォルダからの取り込み、タイトル、動く立ち絵のある本編、セーブ／ロード、サムネイル、音声、終了を、タイトル別の設定なしの KASANE 1.0.11 (20)（配布版）で確認した。",
+      "verifiedWith": "1.0.11 (20)"
     }
   ]
 }

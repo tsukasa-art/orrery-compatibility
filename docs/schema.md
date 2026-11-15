@@ -12,6 +12,11 @@ Each record represents one tested combination of title, edition/distribution, an
 
 These are for search and kana ordering (e.g. kasane.tsukasa-art.com). They are optional, but a record that has one has all three. Readings were checked against the publisher, sales pages, ErogameScape, and VNDB (2026-11-13).
 
+## Japanese text and version
+
+- `constraintsJa`, `evidenceSummaryJa`: Japanese translations of `constraints` and `evidenceSummary`, with the same content and the same number of constraints.
+- `verifiedWith`: the released KASANE version used for the latest check, such as `1.0.12 (21)`. Omitted when the latest check used a development build or no version was recorded.
+
 ## Axes
 
 - `launch`: process reaches the expected game entry point
